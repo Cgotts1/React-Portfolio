@@ -1,6 +1,5 @@
 import React from "react";
-import image1 from "./image1.jpg"
-import cgotts1logo from "./cgotts1logo.png"
+// import cgotts1logo from "./cgotts1logo.png"
 import image7 from "./image7.png"
 
 
