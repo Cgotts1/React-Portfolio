@@ -1,42 +1,137 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+h1{
+  text-shadow: 4px 1px 2px rgb(255, 255, 255);
+font-family: 'Cinzel', serif;
+color: black;
+background-color: rgba(255, 255, 255, 0.85);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-shadow: 4px 1px 2px rgb(255, 255, 255);
+  font-family: 'Cinzel', serif;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.85);
+  float: right;
+  font-size: 106px;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+  padding: 10px;
+  box-shadow: 10px 5px 5px black;
+  padding-right: 40px;
+  /* font-family: 'Babylonica', cursive; */
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul{
+  background-color: rgb(0, 0, 0, 0.85);
+  height: 8vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img{
+  margin-top: 10px;
+    height:600px;
+    width: 300px;
+}
+
+.cgotts1{
+  /* position: absolute; */
+  /* margin-top: -95px;
+  margin-left: 1000px;
+  height: 180px;
+  width: 180px; */
+}
+
+.first-section{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+ p{
+  display: inline-block;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: rgb(0, 0, 0);
+} 
+
+.name{
+  float: right;
+font-size: 106px;
+/* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+padding: 10px;
+box-shadow: 10px 5px 5px black;
+padding-right: 40px;
+/* font-family: 'Babylonica', cursive; */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item{
+  margin-left: 10px;
+  font-size: 28px;
+  
 }
 
-/* *{
-  background-color: grey;
-} */
+.nav-item{
+letter-spacing: 2px;
+font-family: 'Cinzel', serif;
+}
+
+.nav-item:active{
+  color:black;
+}
+
+.nav-tabs{
+  display: flex;
+  /* justify-content: center; */
+}
+
+body{
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1599418978625-1fc805bc068d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMxfHxzcGxhdHRlcnxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60');
+  /* background-image: url('https://images.unsplash.com/photo-1602407069119-e0c6f1602e31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGlua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
+  /* background-image: url('./components/pages/image3.jpg'); */
+  background-image: url('./components/pages/image5.jpg');
+  /* background-image: url('./components/pages/image6.png'); */
+  /* background-image: url('https://images.unsplash.com/photo-1514136144727-6d8b809abf5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGJsYWNrJTIwYW5kJTIwd2hpdGV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); */
+  background-size: cover;
+  background-position: right;
+}
+
+ a.nav-link{
+  color:rgb(255, 255, 255);
+}
+
+a.nav-link:hover{
+  color:rgb(255, 255, 255);
+  /* filter: brightness(3); */
+}
+
+svg{
+  padding: 5px;
+  float: right;
+  transform: rotateX(0.1turn);
+  margin: 10px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+}
+
+svg:hover{
+  transition: 1s;
+  transform: rotateX(0);
+}
+
+svg:active{
+  transition: 0.1s;
+  transition: ease-in-out;
+  height: 97px;
+  width: 97px;
+}
+
+path{
+  color:black;
+}
