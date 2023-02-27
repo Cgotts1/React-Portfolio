@@ -4,6 +4,20 @@ import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
   function stopFOUC(event) {
+
+    var i = 0;
+    var txt = "Thank you! You're form was submitted.";
+    var speed = 50;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.querySelector(".submit-btn").value += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      } 
+    }
+
+
     event.preventDefault();
     let passedValidation = true;
 
@@ -30,7 +44,13 @@ export default function Contact() {
 
       document.querySelector("textarea").value = "";
 
-      alert("Form submitted. Thanks for contacting me!")
+      // alert("Form submitted. Thanks for contacting me!")
+      // document.querySelector(".submit-btn").value = "Thank you!";
+      typeWriter()
+    } else{
+
+      alert("All fields are required!")
+
     }
   }
 
@@ -55,7 +75,7 @@ export default function Contact() {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows={5} />
           </Form.Group>
-          <Button className='submit-btn' as="input" type="submit" value="Submit" />
+          <Button className='submit-btn' as="input" type="submit" value="Submit"/>
         </Form>
 
       </div>

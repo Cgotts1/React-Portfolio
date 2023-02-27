@@ -5,6 +5,10 @@ import image8 from "./image8.png"
 import image9 from "./image9.png"
 import image10 from "./image10.png"
 import cgotts1logo from "./newcgotts1logo.png"
+import cloud1 from "./cloud1.png"
+import cloud2 from "./cloud2.png"
+import cloud3 from "./cloud3.png"
+
 
 
 
@@ -26,7 +30,11 @@ export default function About() {
     <div className="aboutContent">
 
       <div className="first-section">
+        
       <img className="image-one"src={image7}/>
+      {/* <img className="cloud1"src={cloud1}/> */}
+      <img className="cloud2"src={cloud2}/>
+      <img className="cloud3"src={cloud3}/>
       {/* <img className="cgotts1"src={cgotts1logo}/> */}
       
       <div>

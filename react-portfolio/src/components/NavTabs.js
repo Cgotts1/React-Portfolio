@@ -53,7 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
     </ul>
 
-      <img className="cgotts1" src={cgotts1logo} style={{position:"absolute", top:"-10px", right:"-5px", width: "70px", height: "70px"}} />
+      <img className="cgotts1" src={cgotts1logo} style={{position:"absolute", top:"-10px", right:"-5px", width: "70px", height: "70px", zIndex:"4"}} />
 
 
   </div>
