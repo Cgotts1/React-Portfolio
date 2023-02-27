@@ -7,26 +7,53 @@
 
 
 
-
-
-
 /* Cloud animation */
 .cloud1, .cloud2{
   position: absolute;
   margin-top: -70px;
-  margin-left: 600px;
+  margin-left: 100px;
+  margin-left: -100px;
   width: 1000px;
-  animation: animate 5s linear infinite;
+  animation: animate 8s linear infinite;
+  opacity: 0;
+  
 }
 
  .cloud3{
   position: absolute;
-  margin-top: -80px;
-  /* margin-left: 200px; */
+  margin-top: -90px;
+  margin-left: -50px;
   width: 1000px;
   animation: animate 6s linear infinite;
-  /* background-color: red; */
+  opacity: 0;
 }
+
+
+
+
+
+
+
+/* Diagnol Cloud animation */
+/* .cloud1, .cloud2{
+  position: absolute;
+  margin-top: -1000px;
+  width: 1000px;
+  height: 400px;
+  animation: animate 8s linear infinite;
+  opacity: 0;
+  z-index: 5;
+}
+
+ .cloud3{
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 400px;
+  width: 1000px;
+  animation: animate 6s linear infinite;
+  opacity: 0;
+  z-index: 6;
+} */
 
 
 @keyframes animate
@@ -34,14 +61,33 @@
   0%
   {
     transform: translateX(-100%);
-    /* transform: translateY(10%); */
+    opacity: 1;
+   
   }
  
   100%{
     transform: translatey(-10%);
-    
+    opacity: 0; 
   }
 }
+
+/* Diagnol Animation */
+
+/* {
+  0%
+  {
+    transform: translate(0, 0);
+    opacity: 1;
+ 
+  }
+ 
+  100%{
+    transform: translate(150px, 150px);
+    opacity: 0;
+
+    
+  }
+} */
 
 
 
@@ -248,6 +294,8 @@ path {
 }
 
 #full-stack-works {
+  background-color: rgba(114, 114, 114, 0.75);
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -374,6 +422,8 @@ path {
   display: flex;
   background-color: rgb(0, 0, 0, 0.35);
   justify-content: center;
+  /* align-items: center; */
+  /* margin-top: 30px; */
 }
 
 .contact-form,
