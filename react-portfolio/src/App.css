@@ -4,49 +4,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Babylonica&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 
-h1 {
-  text-shadow: 4px 1px 2px rgb(255, 255, 255);
+/* About Me Page */
+
+.name {
+  /* float: right; */
+  font-size: 106px;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+  padding: 10px;
+  box-shadow: 10px 5px 5px black;
+  padding-right: 40px;
+  /* font-family: 'Babylonica', cursive; */
+
+  float: right;
+  text-shadow: 4px 1px 2px rgb(233, 233, 233);
   font-family: "Cinzel", serif;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.481);
+  color: rgb(0, 0, 0);
 }
 
-h2 {
+.position {
+  display: block;
   text-shadow: 4px 1px 2px rgb(255, 255, 255);
   font-family: "Cinzel", serif;
   color: black;
   background-color: rgba(255, 255, 255, 0.85);
   float: right;
   font-size: 106px;
-  font-size: 226px;
+  font-size: 26px;
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
   padding: 10px;
   box-shadow: 10px 5px 5px black;
   padding-right: 40px;
 }
 
-ul {
-  background-color: rgb(0, 0, 0, 0.85);
-  /* height: 7vh; */
+@media screen and (min-width: 1700px) {
+  .position {
+    font-size: 32px;
+  }
+  .name {
+    font-size: 126px;
+  }
 }
 
-img {
+ul {
+  background-color: rgb(0, 0, 0, 0.85);
+}
+
+.image-one {
   margin-top: 10px;
   height: 600px;
   width: 300px;
+  /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
 }
 
-.cgotts1 {
-  /* position: absolute; */
-  /* margin-top: -95px;
-  margin-left: 1000px;
-  height: 180px;
-  width: 180px; */
+.csun-logo,
+.ljmu-logo,
+.ucsd-logo {
+  width: 200px;
+  height: 200px;
 }
+
 
 .first-section {
   display: flex;
   justify-content: space-between;
+  /* background-color: rgb(0, 0, 0, 0.25); */
+  /* background-image: url('https://plus.unsplash.com/premium_photo-1670169415472-974947157fd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fHNub3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); */
+  /* background-image: url('https://images.unsplash.com/photo-1532637644947-13094c2745f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIwfHx3aGl0ZSUyMHRyZWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
+  background-image: url("./components/pages/image12.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 p {
@@ -54,16 +82,6 @@ p {
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.85);
   color: rgb(0, 0, 0);
-}
-
-.name {
-  float: right;
-  font-size: 106px;
-  /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
-  padding: 10px;
-  box-shadow: 10px 5px 5px black;
-  padding-right: 40px;
-  /* font-family: 'Babylonica', cursive; */
 }
 
 .nav-item {
@@ -81,6 +99,11 @@ p {
   display: flex;
   /* justify-content: center; */
   /* height: 8vh; */
+}
+
+.header {
+  /* display: flex; */
+  justify-content: space-between;
 }
 
 body {
@@ -130,16 +153,37 @@ path {
   color: black;
 }
 
+@media screen and (max-width: 500px) {
+  .first-section {
+    flex-wrap: wrap;
+  }
 
+  .image-one {
+    height: 500px;
+    width: 250px;
+  }
+  .name {
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.481);
+  color: rgb(0, 0, 0);
+  }
+  .cgotts1{
+    position:absolute;
+    top:1066px; 
+    right:-15px;
+    width: 770px; 
+    height: 770px;
+  }
+}
 
-
-.work{
-  margin:10px;
+.work {
+  margin: 10px;
 }
 
 #full-stack-works {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,16 +203,9 @@ path {
 
 #full-stack-work:hover {
   opacity: 1;
-  /* filter:brightness(1.1); */
   box-shadow: 7px 6px 6px rgb(20, 20, 20);
   border: solid rgb(255, 255, 255);
 }
-
-
-
-
-
-
 
 #full-stack-p-1 {
   font-size: 86px;
@@ -185,16 +222,34 @@ path {
   font-style: italic;
 }
 
-@media screen and (max-width: 640px) {
-  #full-stack-p-1, #full-stack-p-2 {
-    font-size: 56px;
-  }
-  
-  #full-stack-pro-pic{
-    height: 380px;
-    width: 380px;
+@media screen and (max-width: 400px) {
+  #full-stack-works {
+    justify-content: center;
   }
 }
+
+/* .work {
+  width: 266px;
+  height: 400px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  filter: grayscale(2);
+  border: solid black;
+}
+
+.work:hover {
+  filter: brightness(1.2);
+  box-shadow: 10px 5px 5px rgb(34, 33, 33);
+  filter: grayscale(0.1);
+  transition: 0.5s ease;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-left: 20px;
+} */
 
 .work {
   width: 266px;
@@ -228,4 +283,96 @@ path {
   border-bottom-left-radius: 0px;
   border-left: none;
   box-shadow: 10px 5px 5px rgb(34, 33, 33);
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.overlay-logo {
+  height: 45px;
+  width: 50px;
+  margin-top: 50px;
+}
+
+.overlay-logo:active {
+  transition: 0.1s;
+  transition: ease-in-out;
+  height: 67px;
+  width: 67px;
+}
+
+/* Contact Page */
+
+.contact-page {
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.35);
+  justify-content: center;
+}
+
+.contact-form,
+.submit-btn {
+  width: 45vw;
+}
+
+input.submit-btn {
+  background-color: black;
+  border-color: rgb(255, 255, 255);
+}
+
+input.submit-btn:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  color:black
+}
+
+input.submit-btn:focus {
+  background-color: #000000;
+  border-color: rgb(145, 0, 0);
+}
+
+input.submit-btn:active {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+}
+
+/* Resume Page */
+
+li {
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-form,
+  .submit-btn {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-form,
+  .submit-btn {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-form {
+    /* margin: 10px; */
+    width: auto;
+  }
+}
+
+.contact-page {
+  height: 100vh;
+}
+
+.form-label {
+  background-color: rgba(0, 0, 0, 0.413);
+  color: rgb(255, 255, 255);
+  padding: 0px 10px;
+  border-radius: 3px;
+}
+
+.resume-page {
+  height: 100vh;
 }
