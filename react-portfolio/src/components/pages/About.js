@@ -70,17 +70,12 @@ export default function About() {
         transition into UX research in order to utilize my anthropological
         background. In addition to my passion for learning new skills, I have
         developed a passion for teaching new skills through my work experience
-        in the United States K-12 public school system. While teaching can be
-        very rewarding, it can also be mentally taxing, so classroom management
-        has become an essential tool I rely on daily in order to maintain
-        sanity. Below are portfolio's of work that I have accumulated over the
-        past few years that share a brief look into my teaching experience,
-        anthropological research done in college, and various web applications I
-        have developed.
+        in the United States K-12 public school system. During my time teaching art,
+        I was able to introduce students to... to be continued.
       </p>
-      <img className="csun-logo"src={image8} alt="of csun logo"/>
+      {/* <img className="csun-logo"src={image8} alt="of csun logo"/>
       <img className="ljmu-logo"src={image9} alt="ljmu logo"/>
-      <img className="ucsd-logo"src={image10} alt="ucsd logo"/>
+      <img className="ucsd-logo"src={image10} alt="ucsd logo"/> */}
      
     </div>
   );
