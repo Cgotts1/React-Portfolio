@@ -540,6 +540,8 @@ li {
 
 /* Resume Page */
 
+
+
 .resume-container{
   display: flex;
   justify-content: center;
@@ -550,10 +552,10 @@ li {
 .cv-container{
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.413);
+  background-color: rgb(0, 0, 0);
+  border: solid black;
   color: rgb(255, 255, 255);
   padding: 0px 10px;
-  border-radius: 3px;
 }
 
 
@@ -561,6 +563,7 @@ li {
 .frontend-container{
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 /* .re{
@@ -569,6 +572,9 @@ li {
 
 .resume-page {
   height: 100vh;
+  width: 75vw;
+  /* background-color: rgb(0, 0, 0, 0.35); */
+
 }
 
 .resume-ul{
@@ -586,9 +592,10 @@ li{
   font-size: 18px;
 }
 
-.q{
-  display: flex;
-  justify-content: center;
+
+
+h3{
+  border-radius: 0px;
 }
 
 h4 {
@@ -608,6 +615,7 @@ h4 {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.056);
+  /* width: 25vw; */
 }
 
 .download-icon{
