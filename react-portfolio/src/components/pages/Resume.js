@@ -45,7 +45,7 @@ export default function Resume() {
             
             <ul className="resume-ul">
 
-              
+            {/* 😀 */}
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -53,6 +53,7 @@ export default function Resume() {
               <li>Responsive Design</li>
               <li>React</li>
               <li>Bootstrap</li>
+              {/* 😀 */}
             </ul>
           </div>
 
