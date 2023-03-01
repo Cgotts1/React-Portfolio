@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const form = useRef;
-  console.log("hello");
 
   function stopFOUC(event) {
     var i = 0;
@@ -71,13 +70,15 @@ export default function Contact() {
   }
 
   return (
+
+    <div >
+        <div className="contact-me-container">
+        <h1>Contact Me</h1>
+        </div>
     <div className="contact-page">
       <div className="contact-form">
-        <div>
-          <p>Contact Me!</p>
-        </div>
         <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Group className="mb-3" >
             <Form.Label>Name</Form.Label>
             <Form.Control
               type="text"
@@ -95,7 +96,7 @@ export default function Contact() {
               name="email"
             />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Group className="mb-3" >
             <Form.Label>Message</Form.Label>
             <Form.Control name="message" as="textarea" rows={5} />
           </Form.Group>
@@ -107,6 +108,7 @@ export default function Contact() {
           />
         </Form>
       </div>
+    </div>
     </div>
   );
 }

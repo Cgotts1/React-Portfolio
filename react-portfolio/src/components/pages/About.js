@@ -4,10 +4,8 @@ import image7 from "./image7.png"
 import image8 from "./image8.png"
 import image9 from "./image9.png"
 import image10 from "./image10.png"
-import cgotts1logo from "./newcgotts1logo.png"
 import cloud1 from "./cloud1.png"
 import cloud2 from "./cloud2.png"
-import cloud3 from "./cloud3.png"
 
 
 
@@ -31,10 +29,10 @@ export default function About() {
 
       <div className="first-section">
         
-      <img className="image-one"src={image7}/>
+      <img className="image-one"src={image7} alt="website owner"/>
       {/* <img className="cloud1"src={cloud1}/> */}
-      <img className="cloud2"src={cloud2}/>
-      <img className="cloud3"src={cloud3}/>
+      <img className="cloud1"src={cloud1} alt="first cloud"/>
+      <img className="cloud2"src={cloud2} alt="second cloud"/>
       {/* <img className="cgotts1"src={cgotts1logo}/> */}
       
       <div>
@@ -80,9 +78,9 @@ export default function About() {
         anthropological research done in college, and various web applications I
         have developed.
       </p>
-      <img className="csun-logo"src={image8}/>
-      <img className="ljmu-logo"src={image9}/>
-      <img className="ucsd-logo"src={image10}/>
+      <img className="csun-logo"src={image8} alt="of csun logo"/>
+      <img className="ljmu-logo"src={image9} alt="ljmu logo"/>
+      <img className="ucsd-logo"src={image10} alt="ucsd logo"/>
      
     </div>
   );
