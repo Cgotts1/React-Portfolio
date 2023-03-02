@@ -15,12 +15,7 @@ import cloud2 from "./cloud2.png"
 const styles = {
   headingStyle: {
     fontSize: '100px',
-  },
-  paragraphStyle: {  
-    boxShadow: '10px 5px 5px black',
-    padding: '20px',
-
-  },
+  }
 };
 
 export default function About() {
@@ -34,11 +29,11 @@ export default function About() {
       <img className="cloud1"src={cloud1} alt="first cloud"/>
       <img className="cloud2"src={cloud2} alt="second cloud"/>
       {/* <img className="cgotts1"src={cgotts1logo}/> */}
-      
+      HI
       <div>
       <h1 className="name">Cobi Gottschalk</h1>
       
-      <h2 className="position">Junior Software Developer</h2>
+      <h2 className="position">Junior Web Developer</h2>
       {/* <p style={styles.paragraphStyle}>
         Currently a UCSD bootcamp student working towards becoming a fullstack
         developer. I have a B.A. in Anthropology as well as a MSc in Forensic
@@ -60,9 +55,19 @@ export default function About() {
 
 
       </div>
+
+
+
+<div className="second-section">
+
+      <div className="aboutme-container">
+        <h1>About Me</h1>
+      </div>
+
+      <div className="p-container">
       
       {/* <p className="introduction">Full Stack <br></br>Developer</p> */}
-      <p style={styles.paragraphStyle}>
+      <p className="p-content">
         Currently a UCSD bootcamp student working towards becoming a fullstack
         developer. I have a B.A. in Anthropology as well as a MSc in Forensic
         Anthropology. My goals after completing this course is to find a job
@@ -76,6 +81,8 @@ export default function About() {
       {/* <img className="csun-logo"src={image8} alt="of csun logo"/>
       <img className="ljmu-logo"src={image9} alt="ljmu logo"/>
       <img className="ucsd-logo"src={image10} alt="ucsd logo"/> */}
+</div>
+</div>
      
     </div>
   );
