@@ -29,7 +29,7 @@ export default function About() {
       <img className="cloud1"src={cloud1} alt="first cloud"/>
       <img className="cloud2"src={cloud2} alt="second cloud"/>
       {/* <img className="cgotts1"src={cgotts1logo}/> */}
-      HI
+  
       <div>
       <h1 className="name">Cobi Gottschalk</h1>
       
