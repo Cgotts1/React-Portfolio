@@ -65,7 +65,7 @@ export default function About() {
             React and Express, which are commonly used in web development. I
             learned how to build responsive and user-friendly web applications,
             as well as how to collaborate with other developers using Git
-            version control. My previous academic experience in anthropology has
+            version control. <br></br><br></br>My previous academic experience in anthropology has
             also provided me with a unique set of skills that are valuable in
             the field of forensic anthropology. In particular, I have extensive
             knowledge and practical experience in identifying fragmented human

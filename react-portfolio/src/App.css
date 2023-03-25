@@ -234,7 +234,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.85);
   color: rgb(0, 0, 0);
   box-shadow: 1px 5px 3px black;
-  width: 85%;
+  width: 98%;
   padding: 20px;
   border-radius: 10px;
 }
@@ -316,8 +316,8 @@ svg:hover {
 svg:active {
   transition: 0.1s;
   transition: ease-in-out;
-  height: 97px;
-  width: 97px;
+  height: 77px;
+  width: 77px;
 }
 
 path {
@@ -335,8 +335,9 @@ path {
   }
   .name {
     font-size: 48px;
-    background-color: rgba(0, 0, 0, 0.481);
-  color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.671);
+    text-shadow: none;
+  color: rgb(255, 255, 255);
   }
   .cgotts1{
     margin-top: 42px;
