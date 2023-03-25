@@ -491,8 +491,8 @@ path {
 .overlay-logo:active {
   transition: 0.1s;
   transition: ease-in-out;
-  height: 67px;
-  width: 67px;
+  height: 57px;
+  width: 57px;
 }
 
 /* Contact Page */
