@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.c3de3e1a.css",
-    "main.js": "/React-Portfolio/static/js/main.478342a5.js",
+    "main.js": "/React-Portfolio/static/js/main.7da09666.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/image12.jpg": "/React-Portfolio/static/media/image12.e272e8fb43cc3c7748c9.jpg",
     "static/media/image5.jpg": "/React-Portfolio/static/media/image5.6ae64ec8d756bdfa9331.jpg",
@@ -10,18 +10,17 @@
     "static/media/image10.png": "/React-Portfolio/static/media/image10.8e0234280779b94a6d89.png",
     "static/media/image7.png": "/React-Portfolio/static/media/image7.62555a0675959045f4e1.png",
     "static/media/image8.png": "/React-Portfolio/static/media/image8.eaa5d385f52e8a362f19.png",
-    "static/media/Tech-CV-Copy.pdf": "/React-Portfolio/static/media/Tech-CV-Copy.c50f66464777464f7a4c.pdf",
     "static/media/newcgotts1logo.png": "/React-Portfolio/static/media/newcgotts1logo.c0512f1ec66b0023c9ea.png",
     "static/media/Tech-CV-Copy2.pdf": "/React-Portfolio/static/media/Tech-CV-Copy2.6498e4ed0768c8c17850.pdf",
     "static/media/image13.png": "/React-Portfolio/static/media/image13.0c9dc86585dba1c55ddd.png",
     "static/media/image9.png": "/React-Portfolio/static/media/image9.3d67f6c613ff3034baba.png",
     "index.html": "/React-Portfolio/index.html",
     "main.c3de3e1a.css.map": "/React-Portfolio/static/css/main.c3de3e1a.css.map",
-    "main.478342a5.js.map": "/React-Portfolio/static/js/main.478342a5.js.map",
+    "main.7da09666.js.map": "/React-Portfolio/static/js/main.7da09666.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3de3e1a.css",
-    "static/js/main.478342a5.js"
+    "static/js/main.7da09666.js"
   ]
 }
