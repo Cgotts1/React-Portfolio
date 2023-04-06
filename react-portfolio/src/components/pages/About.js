@@ -26,7 +26,7 @@ export default function About() {
         <div>
           <h1 className="name">Cobi Gottschalk</h1>
 
-          <h2 className="position">Junior Web Developer</h2>
+          <h2 className="position">Software Developer</h2>
           {/* <p style={styles.paragraphStyle}>
         Currently a UCSD bootcamp student working towards becoming a fullstack
         developer. I have a B.A. in Anthropology as well as a MSc in Forensic

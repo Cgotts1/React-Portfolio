@@ -136,7 +136,7 @@
 
 @media screen and (min-width: 1700px) {
   .position {
-    font-size: 32px;
+    font-size: 52px;
   }
   .name {
     font-size: 126px;
@@ -507,6 +507,25 @@ path {
   border-bottom: solid black;
   
 }
+
+.my-email-container{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 0px 20px
+}
+
+a, .email-link{
+  color: rgb(255, 255, 255);
+  /* text-decoration: none; */
+}
+
+a, .email-link:hover{
+  color: rgb(124, 168, 255);
+}
+
+
 
 .contact-page {
   display: flex;
