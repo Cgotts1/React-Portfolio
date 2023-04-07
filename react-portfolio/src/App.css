@@ -474,10 +474,11 @@ path {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 0px;
   border-left: none;
-  box-shadow: 10px 5px 5px rgb(34, 33, 33);
+  box-shadow: 6px 5px 5px rgb(34, 33, 33);
   font-family: 'Oswald', sans-serif;
   font-weight: 900;
   font-size: 17px;
+  /* cursor: pointer; */
 }
 
 .overlay-logo {
@@ -485,6 +486,48 @@ path {
   width: 50px;
   margin-top: 50px;
   border-top-left-radius: 0px;
+}
+
+.tech-used {
+  margin-top: 90px;
+}
+
+.description-and-tech{
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.811);
+  color: rgb(255, 255, 255);
+  margin-top: 360px;
+  margin-left: 12px;
+  padding: 5px;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  width: 262px;
+}
+
+.description-and-tech{
+  /* opacity: 0; */
+  pointer-events: none;
+  /* z-index: 0; */
+}
+
+.project-summary{
+  position: absolute;
+  z-index: 3;
+  margin-top: 140px;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: 700;
+  width: 261px;
+  transition: 200ms;
+  border-bottom-right-radius: 17px;
+  border:solid black;
+  border-left: none;
+  pointer-events: none;
+
+
 
 }
 

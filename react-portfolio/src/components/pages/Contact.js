@@ -9,7 +9,7 @@ export default function Contact() {
 
   function stopFOUC(event) {
     var i = 0;
-    var txt = "Thank you! You're form was submitted.";
+    var txt = "Thank you! Your form was submitted.";
     var speed = 50;
 
     function typeWriter() {
