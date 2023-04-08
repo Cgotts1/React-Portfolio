@@ -99,20 +99,24 @@
 .name {
   /* float: right; */
   font-size: 106px;
-  /* font-size: 150px; */
+  font-size: 130px;
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
   padding: 10px;
   box-shadow: 10px 5px 5px black;
   padding-right: 40px;
-  /* font-family: 'Babylonica', cursive; */
-
+  
   float: right;
-  text-shadow: 4px 1px 2px rgb(233, 233, 233);
-  text-shadow: 4px 1px 2px rgb(153, 153, 153);
+  /* text-shadow: 4px 1px 2px rgb(206, 50, 50); */
   font-family: "Cinzel", serif;
-  background-color: rgba(255, 255, 255, 0.481);
+  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Babylonica', cursive; */
+  width:66%;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-shadow: 4px 1px 2px rgb(255, 255, 255);
+
   color: rgb(0, 0, 0);
   font-weight: 900;
+  /* text-align: left; */
 }
 
 .position {
@@ -122,42 +126,55 @@
   color: black;
   background-color: rgba(255, 255, 255, 0.85);
   float: right;
-  /* font-size: 106px; */
   font-size: 26px;
-  /* font-size: 56px; */
-  /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
+  font-size: 86px;
   padding: 10px;
   box-shadow: 10px 5px 5px black;
   padding-right: 40px;
-  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Oswald', sans-serif;
   font-weight: 900;
+  width:66%;
+  /* text-align: center; */
 
+
+  
 }
 
 @media screen and (min-width: 1700px) {
   .position {
     font-size: 52px;
+    font-size: 126px;
+
   }
   .name {
-    font-size: 126px;
+    font-size: 146px;
   }
 }
 
 @media screen and (max-width: 965px) {
   .position {
-    font-size: 22px;
+    font-size: 52px;
   }
   .name {
-    font-size: 65px;
+    font-size: 75px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .position {
     font-size: 26px;
+    width: 100%;
+    text-align: center;
+    padding-right: 0px;
   }
   .name {
+  text-shadow: none;
+
     font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding-right: 0px;
+
   }
 }
 
@@ -194,30 +211,25 @@ ul {
 .first-section {
   display: flex;
   justify-content: space-between;
-  /* background-color: rgb(0, 0, 0, 0.25); */
-  /* background-image: url('https://plus.unsplash.com/premium_photo-1670169415472-974947157fd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fHNub3d8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); */
-  /* background-image: url('https://images.unsplash.com/photo-1532637644947-13094c2745f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIwfHx3aGl0ZSUyMHRyZWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
-  background-image: url("./components/pages/image12.jpg");
-  /* background-image: url(""); */
-  /* background-image: url("./components/pages/image5.jpg"); */
-
+  background-image: url("./components/pages/image5.jpg");
   background-position: center;
+  background-position:bottom;
   background-size: cover;
 }
 
 
 .second-section{
-
+  
 }
 
 .aboutme-container{
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.721);
+  background-color: rgba(0, 0, 0, 0.799);
   border-bottom: solid black;
   color:white;
-
-
+  
+  
 }
 
 .p-container{
@@ -247,7 +259,7 @@ ul {
   letter-spacing: 2px;
   font-family: "Cinzel", serif;
   font-family: 'Oswald', sans-serif;
-
+  
 }
 
 .nav-item:active {
@@ -294,7 +306,7 @@ footer{
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.755);
   border-top: solid white;
-
+  
 }
 
 
@@ -328,16 +340,16 @@ path {
   .first-section {
     flex-wrap: wrap;
   }
-
+  
   .image-one {
     height: 500px;
     width: 250px;
   }
   .name {
     font-size: 48px;
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.835);
     text-shadow: none;
-  color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
   .cgotts1{
     margin-top: 42px;

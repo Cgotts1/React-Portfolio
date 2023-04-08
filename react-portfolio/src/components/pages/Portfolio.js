@@ -231,7 +231,7 @@ export default function Portfolio() {
           </svg>     
           
 
-          {isVisible3 && <div className="project-summary">A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.</div>}
+          {isVisible3 && <div className="project-summary">A weather dashboard that utilizes Openweathermap's API to retrieve weather information for a five day forecast.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Bootstrap | API: Openweathermap</h6>
