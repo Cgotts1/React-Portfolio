@@ -168,14 +168,16 @@ export default function Portfolio() {
           </a>
 
           {/* ---------------------------------------------------------- */}
+          
+
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility2}            
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
           </svg>
 
           {isVisible2 && <div className="project-summary">The Ron Swanson quote generator offers a selection of over 50 quotes, randomly generating one at a time.</div>}
@@ -219,15 +221,15 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility3}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg>     
+          
 
           {isVisible3 && <div className="project-summary">A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.</div>}
 
@@ -274,15 +276,14 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility4}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
           {isVisible4 && <div className="project-summary">A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</div>}
 
@@ -327,17 +328,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility5}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible5 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible5 && <div className="project-summary">Generate a random password based on criteria a user has selected.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 <br></br>HTML | CSS | JS</h6>
@@ -380,17 +380,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility6}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible6 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible6 && <div className="project-summary">A timed coding quiz consisting of multiple-choice questions and user highscores.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 <br></br> HTML | CSS | JS</h6>
@@ -430,17 +429,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility7}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible7 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible7 && <div className="project-summary">This JavaScript application comprises of 100 squares that are designed to change their color randomly when a specific square is clicked.</div>}
 
 
           {/* ---------------------------------------------------------- */}
@@ -478,17 +476,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility8}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible8 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible8 && <div className="project-summary">An application that allows users to create and delete flash cards. Upon returning to the application, the users previusly created cards will populate through use of local storage. <br/> Tutorial by: Web Dev Tutorials <br/>https://youtu.be/wtqbOFYivxw </div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 <br></br> HTML | CSS | JS</h6>
@@ -525,17 +522,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility9}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible9 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible9 && <div className="project-summary">Quickly and easily generate a README file by using a command-line application. This allows the user to devote more time working on the project.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Node.js | Inquirer</h6>
@@ -578,17 +574,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility10}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible10 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible10 && <div className="project-summary">A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Node.js | Inquirer</h6>
@@ -628,17 +623,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility11}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible11 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible11 && <div className="project-summary">A fitness application allowing users to make an account and create a weekly workout routine that tracks their physical activities and time spent exercizing.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS | Chart.js<br></br>Bootstrap | MySQL | Express |HB.js</h6>
@@ -682,17 +676,16 @@ export default function Portfolio() {
 
           {/* ---------------------------------------------------------- */}
           <svg xmlns="http://www.w3.org/2000/svg"
-            width="100"
-            height="100"
+            width="16"
+            height="16"
             fill="currentColor"
             className="bi bi-github overlay overlay-logo tech-used"
             onClick={toggleVisibility12}            
-
             viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
-          </svg>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
 
-          {isVisible12 && <div className="project-summary">Film Finder is a movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible12 && <div className="project-summary">A gaming social media application where users can go to connect with fellow gamers with similar interests. Users can toggle between different console forums, add friends, and post comments. </div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS | MongoDB<br></br> Express | React.js | Node.js</h6>

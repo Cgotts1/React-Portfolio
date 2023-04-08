@@ -316,8 +316,8 @@ svg:hover {
 svg:active {
   transition: 0.1s;
   transition: ease-in-out;
-  height: 77px;
-  width: 77px;
+  transform: rotateX(0.5);
+  
 }
 
 path {
@@ -518,14 +518,19 @@ path {
   margin-left: 10px;
   padding: 2px;
   background-color: rgb(255, 255, 255);
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: 700;
-  width: 261px;
+  width: 265px;
   transition: 200ms;
-  border-bottom-right-radius: 17px;
+  /* border-bottom-right-radius: 17px; */
   border:solid black;
   border-left: none;
+  border-right: none;
   pointer-events: none;
+  opacity: 0.95;
+  /* box-shadow: 6px 5px 5px rgb(34, 33, 33); */
+  /* box-shadow: 6px 5px 5px rgb(222, 222, 222); */
+
 
 
 
@@ -534,8 +539,8 @@ path {
 .overlay-logo:active {
   transition: 0.1s;
   transition: ease-in-out;
-  height: 57px;
-  width: 57px;
+  height: 47px;
+  width: 47px;
 }
 
 /* Contact Page */
